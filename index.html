@@ -5,13 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lionic Legal Solution</title>
   <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header class="header">
     <div class="container header-container">
       <a class="logo" href="#">
-        <img class="logo-img" src="/img/Header/Logo.svg" alt="">
+        <img class="logo-img" src="/img/Header/Logo.svg" alt="logo">
       </a>
       <nav class="nav">
         <ul class="nav-list">
@@ -30,18 +31,20 @@
   <main>
     <section class="section-hero">
       <div class="container hero-container">
-        <div class="hero-content">
-          <h1 class="section-hero-heading">This is simply a smarter way  to make your legal online</h1>
-          <p class="section-hero-description">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
-          </p>
-          <div class="section-hero-action">
-            <a href="#" class="btn btn-big">FREE 30 DAY TRIAL</a>
-            <div class="section-hero-btn-description">
-              <span class="section-hero-ssl-icon"></span>
-              SSL SECURED CONNECTION
+        <div class="row">
+          <div class="col-lg-6"> <!-- удалили hero-content -->
+            <h1 class="section-hero-heading">This is simply a smarter way  to make your legal online</h1>
+            <p class="section-hero-description">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.
+            </p>
+            <div class="section-hero-action">
+              <a href="#" class="btn btn-big">FREE 30 DAY TRIAL</a>
+              <div class="section-hero-btn-description">
+                <span class="section-hero-ssl-icon"></span>
+                SSL SECURED CONNECTION
+              </div>
+            </div>
           </div>
-        </div>
         </div>
       </div>
     </section>
@@ -54,8 +57,8 @@
         <p class="section-description text-center">
           Lionic guides you on making decisions for all aspects of your end-of-life plans.
         </p>
-        <ul class="section-do-list">
-          <li class="section-do-item">
+        <ul class="section-do-list row">
+          <li class="col-lg-3"> <!-- удалили section-do-item -->
             <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="68" height="66" viewBox="0 0 68 66">
               <defs>
                 <style>
@@ -70,7 +73,7 @@
             <strong class="section-do-item-heading">Your Legacy</strong>
             <p class="section-do-item-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
           </li>
-          <li class="section-do-item">
+          <li class="col-lg-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="section-do-icon" width="86" height="64" viewBox="0 0 86 64">
               <defs>
                 <style>
@@ -85,7 +88,7 @@
             <strong class="section-do-item-heading">Your Health</strong>
             <p class="section-do-item-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
           </li>
-          <li class="section-do-item">
+          <li class="col-lg-3">
             <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
               <defs>
                 <style>
@@ -100,7 +103,7 @@
             <strong class="section-do-item-heading">Funeral & Memorial</strong>
             <p class="section-do-item-description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</p>
           </li>
-          <li class="section-do-item">
+          <li class="col-lg-3">
             <svg class="section-do-icon" xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
               <defs>
                 <style>
@@ -122,8 +125,8 @@
     <section class="section-clients">
       <div class="container">
         <h2 class="section-heading section-clients-heading">Our Happy Clients</h2>
-      <ul class="section-clients-list">
-        <li class="section-clients-item">
+      <ul class="row"> <!-- удалили section-clients-list -->
+        <li class="col-lg-4"> <!-- удалили section-clients-item -->
           <p class="section-clients-testimonial">
             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit odio dignissim qui blandit molestie consequat.
           </p>
@@ -135,7 +138,7 @@
             </div>
           </div>
         </li>
-        <li class="section-clients-item">
+        <li class="col-lg-4">
           <p class="section-clients-testimonial">
             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
           </p>
@@ -147,7 +150,7 @@
             </div>
           </div>
         </li>
-        <li class="section-clients-item">
+        <li class="col-lg-4">
           <p class="section-clients-testimonial">
             Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.
           </p>
@@ -166,15 +169,15 @@
     <section class="section-contacts">
       <div class="container">
         <h2 class="section-heading">Contacts</h2>
-        <ul class="section-contacts-list">
-          <li class="section-contacts-item">
+        <ul class="section-contacts-list row">
+          <li class="col-lg-4"><!-- section-contacts-item -->
             <span class="section-contacts-icon section-contacts-icon-gps"></span>
             <strong class="section-contacts-heading">Visit Us</strong>
             <div class="section-contacts-info">
               Duis autem vel eum iriure dolor in hendrerit in vulputate velit.
             </div>
           </li>
-          <li class="section-contacts-item">
+          <li class="col-lg-4">
             <span class="section-contacts-icon section-contacts-icon-phone"></span>
             <strong class="section-contacts-heading">Call Us</strong>
             <div class="section-contacts-info">
@@ -182,7 +185,7 @@
               <a class="section-contacts-link" href="tel:+71234567890">+7 (123) 456-78-90</a>
             </div>
           </li>
-          <li class="section-contacts-item">
+          <li class="col-lg-4">
             <span class="section-contacts-icon section-contacts-icon-mail"></span>
             <strong class="section-contacts-heading">Visit Us</strong>
             <div class="section-contacts-info">
